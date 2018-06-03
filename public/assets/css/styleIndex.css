@@ -1,0 +1,127 @@
+/* Applies to Homepage: index.html */
+u {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
+
+.main-content {
+    z-index: 3;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 10px; bottom: 0; right: 0;
+    text-align: center;
+}
+
+.main-content h1 {
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 80px;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+.main-content h2 {
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+#delay3 {
+    opacity:0;
+    transition: opacity 0.8s;
+}
+#myCarousel {
+    margin-top: 50px;
+    height: 600px;
+}
+.carousel .item img {
+    overflow: hidden;
+    filter: blur(2px);
+}
+
+.carousel-inner {
+    max-height: 610px;
+    width: 100%;
+}
+
+.tutorial {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tutorial img {
+    overflow: hidden;
+    height: 300px;
+    width: 80%;
+    border-color: #D30E00;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.tutorial p {
+    color: black;
+    font-size: 25px;
+}
+
+.business {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.business li {
+    font-size: 22px;
+    color: black;
+}
+
+.business ul {
+    margin: auto;
+    position: relative;
+    top: 0; left: 11em; bottom: 0; right: 0;
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom,#D30E00 0,#CE0D00 100%) !important;
+    background-color: #D30E00 !important;
+    border-color: #CE0D00 !important ;
+    border-radius: 5px !important;
+}
+
+.btn-primary:hover {
+    border-color: #D30E00 !important;
+}
+
+/* Removes the odd outline when clicking the button */
+.btn:focus {
+  outline: none !important;
+}

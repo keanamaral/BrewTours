@@ -1,0 +1,127 @@
+<!-- This represents the Sign-In Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brew Tours Booking</title>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- StyleSheets: Reset.css, My Index & Global CSS, Bootstrap (CSS + Optional Themes)-->
+    <link rel="stylesheet" href="../assets/css/Reset.css">
+    <link rel="stylesheet" href="../assets/css/styleSign-in.css">
+    <link rel="stylesheet" href="../assets/css/styleGlobal.css">
+    <!-- StyleSheets: Bootstrap v3.3.7 CSS and Optional Theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Materialize (is Google's CSS)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Font Awesome (CSS)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Fancybox (CSS)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+    <!-- Google's Fonts links below:-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto">
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////   -->
+</head>
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+  <!-- Create hamburger in smaller browser for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" 
+        data-target="#navbar" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand navName" href="#" style="margin-top: -20px; font-size: 24px">
+      <span><img src="../assets/logo/logo05.png" width="100" height="100" alt="BrandLogo"></span>
+      Online Brew Tours Booking
+    </a>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="nav navbar-nav navbar-right navName2">
+      <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+      <li><a href="/sign-in"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
+      <li><a href="/contact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<body>
+  <!-- Sign in Section -->
+  <div class="banner">
+    <center><h1>Brew Tours Is Just A Sign-In Away!</h1></center>
+    Don't have an account?
+    <a href="/sign-up">Sign Up</a>
+  </div>
+  <center class="social-media-button">
+    <a href="https://facebook.com" class="btn btn-primary btn-md"><i class="fab fa-facebook-f"></i> Sign in with Facebook</a>
+    <a href="https://google.com" class="btn btn-primary btn-md"><i class="fab fa-google"></i> Sign in with Google</a>
+  </center>
+  <div class="container-fluid signin-card" style="background-color: white">
+    <form>
+      <div class="form-group info-section">
+        <label for="userNameSignIn">Username</label>
+        <input type="text" class="form-control" id="userNameSignIn" placeholder="Enter Username">
+      </div>
+      <div class="form-group info-section">
+        <label for="userPwdSignIn">Password</label>
+        <input type="password" class="form-control" id="userPwdSignIn" placeholder="Enter Password">      
+      </div>
+      <div class="form-group">
+        <div class="checkbox">
+          <label for="optinosCheckbox1"><input type="checkbox" id="optinosCheckbox1" value="">
+          Remember Me</label>
+        </div>
+      </div>
+      <a href="#" class="forgot-password">Forgot password?</a>
+      <div class="form-group info-section">
+        <center>
+          <button id="btnSignIn" type="submit" class="btn btn-primary btn-lg" style="margin-top: 10px">Sign In</button>
+        </center>  
+      </div>
+    </form>
+  </div>
+  <!-- Credits/Footer -->
+  <div class = "navbar navbar-default navbar-fixed-bottom">
+    <div class="credits container-fluid">
+      <div class="col-md-6">
+        <center>
+          <p>&copy; Copyright 2018 Kean Amaral</p>
+        </center>
+      </div>
+      <div class="col-md-6">
+        <center>
+          <a href="https://www.facebook.com/" target="blank"><i class="contact-icon fab fa-facebook-square fa-4x"></i>
+          <a href="https://twitter.com/" target="blank"><i class="contact-icon fab fa-twitter-square fa-4x"></i>
+          <a href="https://www.linkedin.com/" target="blank"><i class="contact-icon fab fa-linkedin fa-4x"></i>
+          <a href="mailto:onlineorders@brewtours.com" target="blank"><i class="contact-icon fa fa-envelope fa-4x"></i>
+        </center>
+      </div>
+    </div>
+  </div>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////   -->
+    <!-- Scripts: Adding the latest Compiled and minified jQuery file -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Scripts: Adding the latest Compiled and minified JavaScript for - Bootstrap v3.3.7 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Scripts: Adding the latest Compiled and minified JavaScript for - Fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <!-- Scripts: Adding the latest Compiled and minified JavaScript for - Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////   -->
+    <!-- Specific Script Files: sign-in.js, util.js -->
+    <script type="text/javascript" src="../assets/js/sign-in.js"></script>
+    <script type="text/javascript" src="../assets/js/util.js"></script>
+</body>
+</html>

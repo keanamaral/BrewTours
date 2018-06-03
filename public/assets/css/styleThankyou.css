@@ -1,0 +1,48 @@
+/* Applies to Thank You Page: thank-you.html */
+body{
+  background: url("../background/beer_background13.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+.banner h1 {
+  text-shadow: 4px 4px 6px #000000;
+  font-size: 80px;
+  color: white !important;
+  font-family: 'Oleo Script', cursive;
+}
+.banner h2 {
+  text-shadow: 2px 2px 3px #000000;
+  font-size: 40px;
+  color: white !important;
+  font-family: 'Oleo Script', cursive;
+}
+.btn
+{
+  margin-top: 20px;
+}
+.btn-primary
+{
+  background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
+  background-color: #D30E00 !important;
+  border-color: #CE0D00 !important;
+  border-radius: 5px !important;
+}
+.btn-primary:hover
+{
+  border-color: #D30E00 !important;
+}
+
+.btn:focus
+{
+  outline: none !important;
+}
